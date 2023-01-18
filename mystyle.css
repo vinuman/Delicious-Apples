@@ -1,0 +1,132 @@
+
+body{
+    display:flex;
+    background-color: #5dd55d;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight:bolder;
+    margin-top: 60px;
+    
+}
+
+.code{
+    margin-top: -10px;
+    margin-bottom:50px;
+}
+
+h1{
+    font-size:60px;
+    color: #ff4d4d;
+    margin-top:-40px;
+}
+
+.apple-variants{
+    width:40px;
+    height:40px;
+
+}
+
+#green-variant{
+    border:1px solid gray;
+    border-radius: 10px;
+}
+
+h3{
+    opacity: 50%;
+}
+
+ul{
+    margin-bottom:50px;
+}
+
+.color-selection{
+   margin-bottom:40px;
+}
+
+
+.main-card{
+    background-color: white;
+    width:800px;
+    height:90vh;
+    margin-left: 300px;
+    margin-top:60px;
+    position:fixed;   
+    border-radius: 20px; 
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.main-card-contents{
+    margin-top:50px;
+    margin-left:350px;
+}
+
+.image-card{
+    width:350px;
+    height:80vh;
+    background-color:white;
+    z-index:1;
+    margin-top:110px;
+    margin-left:250px;
+    border-radius: 20px; 
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+.main-image-space{
+    background-color: #8db600;
+    height:80%;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.green-apple-image{
+    z-index:2;
+    margin-top:150px;
+    margin-left:-400px;
+   
+}
+
+#share-button{
+    margin-left:30px;
+    margin-top:20px;
+    color: white;
+    
+}
+
+#like-button{
+    margin-left:250px;
+    margin-top:-50px;
+    color: white;
+    
+}
+
+.green-apple-sub-images{
+    margin-top:470px;
+    margin-left:20px;
+    border:1px solid lightgray;
+    border-radius: 10px;
+   
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px); 
+}
+
+.variants{
+    margin-left:30px;
+}
+
+.myButtonClass{
+    background-color: #ff4d4d; ;
+    color:white;
+    border-radius:10px;
+    width:200px;
+    height:70px;
+    margin-top:-60px;
+    border:none;
+}
